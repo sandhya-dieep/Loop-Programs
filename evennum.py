@@ -1,4 +1,9 @@
-i = 2
-while i <= 10:
-    print(i)
-    i += 2
+num = int(input("Enter a number: "))
+
+while num != 0:
+    if num % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+    break
+
